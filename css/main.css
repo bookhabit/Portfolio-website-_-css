@@ -29,3 +29,71 @@ section{
     padding: 50px 0;
 }
 
+
+/* header */
+nav{
+    background: #D7D8D9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+}
+
+.main-menu li{
+    margin-right: 40px;
+}
+
+.main-menu li a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.socil-menu li{
+    margin-left: 20px;
+}
+
+/* 소셜메뉴 동그라미 구현 */
+.socil-menu li a{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+header nav{
+    margin-bottom: 50px;
+}
+header h1, header h2 {
+    text-align: center;
+}
+header h1{
+    font-size: 42px;
+    line-height: 42px;
+    color: #BA3632;
+}
+header h2{
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F2BBA2;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
