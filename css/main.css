@@ -147,9 +147,80 @@ header h2{
     justify-content: space-between;
 }
 
-.services .contents div{
+.services .contents p{
     width: 540px;
-}
-.services .contents div p{
     word-break: break-all;
+}
+
+/* Portfolio Section CSS */
+.portfolio{
+    background: #D7D8D9;
+}
+
+.portfolio h2{
+    margin-bottom: 30px;
+}
+
+.portfolio-slides .swiper-slide img{
+    width: 100%;
+}
+
+.portfolio-slides .swiper-slide{
+    position: relative;
+}
+
+.portfolio-slides .swiper-slide .caption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(0,0,0,.5);
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.portfolio-slde-wrap{
+    position: relative;
+}
+
+.portfolio-slide-wrap .controls span{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width: 36px;
+    height: 36px;
+    background: rgba(0,0,0,0.2);
+    border-radius:4px;
+    font-size: 14px;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: 36px;
+}
+.portfolio-slde-wrap .controls .prev{
+    right: calc(100%+30px);
+}
+
+.portfolio-slde-wrap .controls .next{
+    left: calc(100%+30px);
+}
+.read-more {
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    width: 243px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;    
+    background: rgba(0,0,0,.8);
+    border-radius:4px;
+    display:inline-block;
+    text-decoration: none;
 }
