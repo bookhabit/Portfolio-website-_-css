@@ -136,3 +136,20 @@ header h2{
     font-size: 20px;
     line-height: 20px;
 }
+
+/* Feture services CSS*/
+.services h2{
+    margin-bottom: 20px;
+}
+
+.services .contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .contents div{
+    width: 540px;
+}
+.services .contents div p{
+    word-break: break-all;
+}
