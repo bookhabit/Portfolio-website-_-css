@@ -8,8 +8,8 @@ $(document).ready(function(){
         spaceBetween:30,      
         // Navigation arrows
         navigation: {
-          nextEl: '.controls .next',
-          prevEl: '.controls .prev',
+          nextEl: '.portfolio-slide-wrap .next',
+          prevEl: '.portfolio-slide-wrap .prev',
         },
      
     });
