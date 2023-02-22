@@ -104,6 +104,8 @@
         width: 100%;
         margin-bottom: 24px;
     }
-    /* PORTFOLIO */
-    
+    /* footer */
+    footer .contents{
+        flex-direction: column;
+    }
 }
