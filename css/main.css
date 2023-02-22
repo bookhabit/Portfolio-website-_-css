@@ -47,6 +47,10 @@ nav div ul{
     display: flex;
     align-items: center;
 }
+.menu-toggle-btn{
+    display: none;
+}
+
 
 .main-menu li{
     margin-right: 40px;
