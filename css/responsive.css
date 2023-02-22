@@ -19,7 +19,9 @@
 }
 
 @media screen and (max-width:768px){
-    
+    .portfolio-slides{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -102,4 +104,6 @@
         width: 100%;
         margin-bottom: 24px;
     }
+    /* PORTFOLIO */
+    
 }
